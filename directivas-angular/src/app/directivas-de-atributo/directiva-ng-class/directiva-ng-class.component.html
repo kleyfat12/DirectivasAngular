@@ -1,0 +1,11 @@
+<div style="border: 1px solid; padding: 10px; margin-bottom: 10px;">
+    <h3>Directiva NgClass</h3>
+    <div [ngClass]="clase" style="margin-bottom: 10px;">
+        Hola desde componente NgClass
+    </div>
+    <div >
+        <button (click)="clase = 'bg-warning'" class="btn btn-warning" style="margin-right: 10px;">bg-warning</button>
+        <button (click)="clase = 'bg-danger'" class="btn btn-danger" style="margin-right: 10px;">bg-danger</button>
+        <button (click)="clase = 'bg-primary'" class="btn btn-primary" style="margin-right: 10px;">bg-primary</button>
+    </div>
+</div>

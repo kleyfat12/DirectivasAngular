@@ -1,0 +1,17 @@
+<div style="border: 1px solid; padding: 10px; margin-bottom: 10px;">
+    <h3>Directiva NgFor</h3>
+    <table class="table table-striped table-hover table-bordered">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let persona of personas">
+                <td>{{persona.nombre}}</td>
+                <td>{{persona.apellido}}</td>
+                <td>{{persona.edad}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,5 @@
+<div style="padding: 10px; border: 1px solid;">
+    <h3>Directiva NgStyle</h3>
+    <input type="checkbox" (change)="checked = !checked"><label>Check</label>
+    <p [ngStyle]="{'background-color': checked ? 'blue' : 'red'}" style="color: white;">checked = {{checked}}</p>
+</div>
